@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.container_wel{
+    height: 40%;
+}
+.container_wel .navbar{
+    height: 7%;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navcor{
+    top: -18.5%;
+    scale: 40%;
+    position: absolute;
+}
+.card{
+    width: 100%;
+}
+.card img{
+    width: 100%;
+}
+.navbar .saldo{
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    margin-left: 93%;
+    display: flex;
+}
+.saldo p{
+    margin-right: 10px;
+    font-size: 1rem;
+}
+.container-content{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    justify-content: center;
+}
+.content{
+    height: 70%;
+    width: 70%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 2%;
+}
+.r1{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+.r2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.pack{
+    scale: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.pack p{
+    width: 100%;
+    top: 83%;
+    position: absolute;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 8px #FFAF02
+}
+
+.pack img{
+    width: 17vw;
+}
